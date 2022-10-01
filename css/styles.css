@@ -168,6 +168,15 @@ a.logo.link:focus {
 /* Contacts */
 .contacts-link {
   color: var(--primary-text-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: currentColor;
+}
+
+.letter-icon,
+.phone-icon {
+ fill: var(--primary-text-color); 
 }
 
 /* hero */
@@ -304,6 +313,15 @@ a.logo.link:focus {
 
 .team-card-content {
   padding-bottom: 30px;
+  fill: currentColor;
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.instagram-icon {
+  fill: currentColor;
+  background-color: aqua;
 }
 
 .team-list {
