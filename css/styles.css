@@ -42,7 +42,7 @@ body {
   color: var(--primary-text-color);
 }
 
-/* Hidden header */
+/* ----------------Hidden header---------------- */
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -56,7 +56,7 @@ body {
   margin: -1px;
 }
 
-/* Section */
+/* ----------------Section---------------- */
 
 section {
   padding: 94px 0;
@@ -121,7 +121,7 @@ section {
   gap: 50px;
 }
 
-/* Logo */
+/* ----------------Logo---------------- */
 .logo-header,
 .logo-footer {
   color: var(--accent-color);
@@ -141,7 +141,7 @@ a.logo.link:focus {
   color: var(--accent-color);
 }
 
-/* site nav */
+/* ----------------site nav---------------- */
 .site-nav-item,
 .contacts-link {
   font-weight: 500;
@@ -161,13 +161,13 @@ a.logo.link:focus {
   color: var(--accent-color);
 }
 
-/* Current */
+/* ----------------Current---------------- */
 .site-nav .link.current,
 .filter .link.current {
   color: var(--accent-color);
 }
 
-/* Contacts */
+/*----------------Contacts---------------- */
 .contacts-link {
   color: var(--primary-text-color);
   display: flex;
@@ -186,12 +186,12 @@ a.logo.link:focus {
   fill: var(--accent-color);
 }
 
-/* Hero */
+/* ----------------Hero---------------- */
 
 .hero {
   padding: 200px 0;
   margin: 0 auto;
-  width: 1600px;
+  max-width: 1600px;
   text-align: center;
   background-color: #212121;
   background-image: linear-gradient(
@@ -218,7 +218,7 @@ a.logo.link:focus {
   text-transform: uppercase;
 }
 
-/* Button */
+/* ----------------Button---------------- */
 
 .button-primary {
   border-radius: 4px;
@@ -278,7 +278,7 @@ a.logo.link:focus {
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-/* Features */
+/*---------------Features---------------- */
 
 .features-list {
   display: flex;
@@ -331,7 +331,7 @@ a.logo.link:focus {
   letter-spacing: 0.03em;
 }
 
-/* Activity */
+/*--------------- Activity----------------- */
 
 .activity {
   padding-top: 0;
@@ -467,31 +467,23 @@ a.logo.link:focus {
   fill: var(--accent-color);
 }
 
-/* Footer */
+/* -------------Footer------------ */
 
 footer {
   padding: 60px 15px;
   margin: 0 auto;
-  width: 1600px;
 
   background: #2f303a;
 }
 
-footer .logo {
-  margin-bottom: 20px;
+a.footer-address-logo {
   color: var(--color-hero-text);
 }
 
 .address-soc {
   display: flex;
   align-items: baseline;
-  justify-content: left;
   gap: 70px;
-}
-
-.footer-address,
-.footer-soc {
-  padding: 0;
 }
 
 .footer-soc-title {
@@ -532,11 +524,17 @@ footer .logo {
   background-color: var(--accent-color);
 }
 
-/* Address */
+/* ----------------Address---------------- */
+
+.list-address-item {
+  margin-bottom: 9px;
+}
+
+ul.list.address:nth-child(1) {
+  margin-top: 20px;
+}
 
 .address-link {
-  margin-bottom: 9px;
-
   color: var(--color-address-link);
   font-style: normal;
   font-size: 14px;
@@ -553,7 +551,9 @@ footer .logo {
   color: var(--accent-color);
 }
 
-/* Filter */
+/* ----------------Portfolio---------------- */
+
+/* ------------------Filter------------------ */
 
 .list-filter {
   display: flex;
@@ -568,7 +568,7 @@ footer .logo {
   padding: 6px 25px;
 }
 
-/* Projects */
+/* ----------------Projects---------------- */
 
 .projects-title {
   margin-bottom: 4px;
